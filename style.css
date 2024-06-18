@@ -431,11 +431,13 @@ footer .line-footer p a{
     }
 
     .img-topo-site img{
-        max-width: 250px;
+        max-width: 275px;
     }
 
     .img-topo-site{
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .menu-desktop{
@@ -454,7 +456,7 @@ footer .line-footer p a{
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: #5c14ec;
+        background-color: #000000;
         border: none;
         font-size: 23px;
         cursor: pointer;
@@ -476,7 +478,8 @@ footer .line-footer p a{
 
     
     section.topo-do-site .flex{
-        display: inline-block;
+        display: inline;
+        align-items: center;
         justify-content: center;
         gap: 90px;
     }
@@ -485,5 +488,33 @@ footer .line-footer p a{
         max-width: 1000px;
     }
 
+    .especialidades .interface{
+      align-items: center;
+      justify-content: center;
+    }
 
+    .especialidades .flex{
+        display: inline;
+    }
+
+    .flex .img-sobre img{
+        max-width: 275px;
+    }
+
+    .sobre .flex{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-social a button i{
+        font-size: 20px;
+        color: #fff;
+    }
 }
